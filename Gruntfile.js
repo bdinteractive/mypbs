@@ -34,11 +34,9 @@ module.exports = function(grunt) {
 			all: {
 				files: {
 					'js/min/main.min.js': [
-						'js/libs/jquery.js',
 						'js/main.js',
-						'js/libs/bootstrap.js',
-						'js/libs/bootstrap-sprokets.js',
-						'js/libs/bootstrap/alert.js'
+						'js/pri-nav.js',
+						'js/libs/bootstrap.js'
 					]
 				}
 			}

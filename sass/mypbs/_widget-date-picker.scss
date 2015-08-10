@@ -1,0 +1,34 @@
+
+/* Widget Date Picker */
+
+.widget-date-picker {
+	margin-bottom: 20px;
+}
+.widget-date-picker .wrapper {
+	border: solid 1px #c2c4cb;
+	border-radius: 3px;
+	width: 95px;
+}
+.widget-date-picker input {
+	border: none;
+	width: 70%;
+	height: 30px;
+	padding-left: 10px;
+}
+.widget-date-picker .dash {
+	width: 20px;
+	text-align: center;
+	padding-top: 5px;
+}
+.widget-date-picker .icon-wrapper {
+	background: #f8f8f8;
+	width: 30%;
+	float: right;
+	height: 30px;
+	text-align: center;
+	padding-top: 7px;
+}
+.widget-date-picker .icon-wrapper i {
+	color: #c3c8cd;
+
+}

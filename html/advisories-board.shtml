@@ -2,33 +2,362 @@
 <html>
 <head>
 	<title>myPBS</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
 	<!-- Global CSS -->
-	<link rel="stylesheet" type="text/css" media="screen" href="../styles/global.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="../styles/mypbs.css">
 
 	<!-- Webfonts -->
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
 
-	<!-- Global CSS -->
-	<script src="../js/min/main.min.js"></script>
-	
-	<!-- JQUERY -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<style type="text/css" media="screen">
+		/*	----------------------------------------------------------------------------
+			(x) Themes */
+		body { 
+			background-color: #000;
+			background-image: url(../images/themes/theme5/background_page.png); 
+		}
+		p { color: #6E6D6D; }
+
+		.leftContent p a { color: #ea9022; }
+		#pbs-content { border-top-color: #ea9022; }
+
+	</style>
 	
 </head>
 
 <body>
 
 	<div id="pbsheader">
-		<!-- Navigation V4 include -->
-		<!--#include file="includes/mypbs-pri-navigation.ssi" -->
+		<!-- Primary Navigation include -->
+		<!--#include file="includes/pri-navigation.ssi" -->
 
-		<!-- Primary Side Nav include -->
-		<!--#include file="includes/pri-side-nav.ssi" -->
+		<!-- Side Drawer include -->
+		<!--#include file="includes/side-drawer.ssi" -->
 
 	</div><!-- end of header -->
 
-	<p>Hello World!</p>
+	<!-- Right Floating Nav include -->
+	<!--#include file="includes/rightnav.ssi" -->
+
+	<div class="container">
+		<div id="userPage" class="row">
+
+			<div class="col-md-6 user-details clearfix">
+				<a href="#" class="user-menu js-primary-side-menu">
+					<i class="pbs-icon-menu"></i> <span class="user-avatar">
+					<img src="../images/temp-avatar.jpg"></span> 
+					<span class="user-name">MaryAnne Longername</span>
+				</a>
+			</div>
+
+			<div class="col-md-6 text-right">
+				<h2>PBS Advisories Board</h2>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="container">
+		<div id="pbs-content" class="row">
+			
+			<div class="col-md-2">
+
+				<p>
+					<button type="button" class="btn btn-primary btn-block">Refresh Data</button>
+				</p>
+
+				<form class="form">
+					<div class="form-group">
+						<div class="input-group">
+							<div class="input-group-addon"><i class="pbs-icon-calendar6"></i></div>
+							<input type="text" class="form-control" id="datepicker_start" placeholder="Start Date">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="input-group">
+							<div class="input-group-addon"><i class="pbs-icon-calendar6"></i></div>
+							<input type="text" class="form-control" id="datepicker_end" placeholder="End Date">
+						</div>
+					</div>
+				</form>
+
+			</div><!-- /col -->
+
+
+
+			<div class="col-md-10">
+
+				<div class="table-responsive">
+
+					<table class="table table-condensed table-striped">
+
+						<thead>
+							<tr>
+								<th scope="col" class="header">Posted</th>
+								<th scope="col">Channel</th>
+								<th scope="col" class="header">Feed Date</th>
+								<th scope="col">Title</th>
+								<th scope="col" class="header">NOLA</th>
+								<th scope="col">Package</th>
+								<th scope="col" class="header">Descrepancy</th>
+								<th scope="col" class="header">Posted By</th>
+								<th scope="col">Comments</th>
+								<th scope="col">Me Too/Not Me</th>
+								<th scope="col" class="header">Refeed</th>
+							</tr>
+						</thead>
+
+						<tbody class="table-bordered">
+							<tr>
+								<td>04/22/2015</td>
+								<td>HD01</td>
+								<td>04/25/2015</td>
+								<td>HD PROMO REEL</td>
+								<td>HDPR000967</td>
+								<td>(HD-Base) P453669-001</td>
+								<td>Did Not Air</td>
+								<td>Pugh, Other</td>
+								<td>10</td>
+								<td>12/4</td>
+								<td>04/25/2015</td>
+							</tr>
+							<tr>
+								<td>04/22/2015</td>
+								<td>NRT</td>
+								<td>04/23/2015</td>
+								<td><a href="javascript:openModal();">Call the Midwife</a></td>
+								<td>CMID000405</td>
+								<td>(HD-Pledge Event p452637-001</td>
+								<td>Catergory 2</td>
+								<td>Shaw, KUSM</td>
+								<td><a href="javascript:openModal();">2</a></td>
+								<td>11</td>
+								<td><a href="javascript:openModal();">04/25/2015</a></td>
+							</tr>
+							<tr>
+								<td>04/21/2015</td>
+								<td>HD04</td>
+								<td>04/21/2015</td>
+								<td>My Sinatra: A Musica...</td>
+								<td>MYSI000000</td>
+								<td>(HD-Base) P453669-001</td>
+								<td>No Video</td>
+								<td>Yatlor, Other</td>
+								<td></td>
+								<td>
+									<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
+									<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>04/22/2015</td>
+								<td>HD01</td>
+								<td>04/25/2015</td>
+								<td>HD PROMO REEL</td>
+								<td>HDPR000967</td>
+								<td>(HD-Base) P453669-001</td>
+								<td>Did Not Air</td>
+								<td>Pugh, Other</td>
+								<td>10</td>
+								<td>12/4</td>
+								<td>04/25/2015</td>
+							</tr>
+							<tr>
+								<td>04/22/2015</td>
+								<td>NRT</td>
+								<td>04/23/2015</td>
+								<td><a href="javascript:openModal();">Call the Midwife</a></td>
+								<td>CMID000405</td>
+								<td>(HD-Pledge Event p452637-001</td>
+								<td>Catergory 2</td>
+								<td>Shaw, KUSM</td>
+								<td><a href="javascript:openModal();">2</a></td>
+								<td>11</td>
+								<td><a href="javascript:openModal();">04/25/2015</a></td>
+							</tr>
+							<tr>
+								<td>04/21/2015</td>
+								<td>HD04</td>
+								<td>04/21/2015</td>
+								<td>My Sinatra: A Musica...</td>
+								<td>MYSI000000</td>
+								<td>(HD-Base) P453669-001</td>
+								<td>No Video</td>
+								<td>Yatlor, Other</td>
+								<td></td>
+								<td>
+									<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
+									<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>04/22/2015</td>
+								<td>HD01</td>
+								<td>04/25/2015</td>
+								<td>HD PROMO REEL</td>
+								<td>HDPR000967</td>
+								<td>(HD-Base) P453669-001</td>
+								<td>Did Not Air</td>
+								<td>Pugh, Other</td>
+								<td>10</td>
+								<td>12/4</td>
+								<td>04/25/2015</td>
+							</tr>
+							<tr>
+								<td>04/22/2015</td>
+								<td>NRT</td>
+								<td>04/23/2015</td>
+								<td><a href="javascript:openModal();">Call the Midwife</a></td>
+								<td>CMID000405</td>
+								<td>(HD-Pledge Event p452637-001</td>
+								<td>Catergory 2</td>
+								<td>Shaw, KUSM</td>
+								<td><a href="javascript:openModal();">2</a></td>
+								<td>11</td>
+								<td><a href="javascript:openModal();">04/25/2015</a></td>
+							</tr>
+							<tr>
+								<td>04/21/2015</td>
+								<td>HD04</td>
+								<td>04/21/2015</td>
+								<td>My Sinatra: A Musica...</td>
+								<td>MYSI000000</td>
+								<td>(HD-Base) P453669-001</td>
+								<td>No Video</td>
+								<td>Yatlor, Other</td>
+								<td></td>
+								<td>
+									<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
+									<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>04/22/2015</td>
+								<td>HD01</td>
+								<td>04/25/2015</td>
+								<td>HD PROMO REEL</td>
+								<td>HDPR000967</td>
+								<td>(HD-Base) P453669-001</td>
+								<td>Did Not Air</td>
+								<td>Pugh, Other</td>
+								<td>10</td>
+								<td>12/4</td>
+								<td>04/25/2015</td>
+							</tr>
+							<tr>
+								<td>04/22/2015</td>
+								<td>NRT</td>
+								<td>04/23/2015</td>
+								<td><a href="javascript:openModal();">Call the Midwife</a></td>
+								<td>CMID000405</td>
+								<td>(HD-Pledge Event p452637-001</td>
+								<td>Catergory 2</td>
+								<td>Shaw, KUSM</td>
+								<td><a href="javascript:openModal();">2</a></td>
+								<td>11</td>
+								<td><a href="javascript:openModal();">04/25/2015</a></td>
+							</tr>
+							<tr>
+								<td>04/21/2015</td>
+								<td>HD04</td>
+								<td>04/21/2015</td>
+								<td>My Sinatra: A Musica...</td>
+								<td>MYSI000000</td>
+								<td>(HD-Base) P453669-001</td>
+								<td>No Video</td>
+								<td>Yatlor, Other</td>
+								<td></td>
+								<td>
+									<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
+									<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>04/22/2015</td>
+								<td>HD01</td>
+								<td>04/25/2015</td>
+								<td>HD PROMO REEL</td>
+								<td>HDPR000967</td>
+								<td>(HD-Base) P453669-001</td>
+								<td>Did Not Air</td>
+								<td>Pugh, Other</td>
+								<td>10</td>
+								<td>12/4</td>
+								<td>04/25/2015</td>
+							</tr>
+							<tr>
+								<td>04/22/2015</td>
+								<td>NRT</td>
+								<td>04/23/2015</td>
+								<td><a href="javascript:openModal();">Call the Midwife</a></td>
+								<td>CMID000405</td>
+								<td>(HD-Pledge Event p452637-001</td>
+								<td>Catergory 2</td>
+								<td>Shaw, KUSM</td>
+								<td><a href="javascript:openModal();">2</a></td>
+								<td>11</td>
+								<td><a href="javascript:openModal();">04/25/2015</a></td>
+							</tr>
+							<tr>
+								<td>04/21/2015</td>
+								<td>HD04</td>
+								<td>04/21/2015</td>
+								<td>My Sinatra: A Musica...</td>
+								<td>MYSI000000</td>
+								<td>(HD-Base) P453669-001</td>
+								<td>No Video</td>
+								<td>Yatlor, Other</td>
+								<td></td>
+								<td>
+									<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
+									<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+								</td>
+								<td></td>
+							</tr>
+						</tbody>
+
+					</table>
+
+				</div>
+
+			</div><!-- /col -->
+
+
+
+
+		</div><!-- /row -->
+	</div><!-- /container -->
+
+
+	<!-- Primary Footer include -->
+	<!--#include file="includes/footer.ssi" -->
+
+	<!-- Load JavaScript at the Bottom -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="../js/min/main.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" media="screen" href="../js/libs/pickadate/classic.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="../js/libs/pickadate/classic.date.css">
+	<script src="../js/libs/pickadate/picker.js"></script>
+	<script src="../js/libs/pickadate/picker.date.js"></script>
+	<script src="../js/libs/pickadate/legacy.js"></script>
+
+	<script type="text/javascript">
+		$('#datepicker_start').pickadate({
+			showMonthsShort: true,
+			format: 'dd/mm/yy'
+		});
+		$('#datepicker_end').pickadate({
+			showMonthsShort: true,
+			format: 'dd/mm/yy'
+		});
+	</script>
 
 </body>
 </html>

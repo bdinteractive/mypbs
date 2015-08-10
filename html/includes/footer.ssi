@@ -1,0 +1,12 @@
+
+<div class="container">
+	<div class="row miniFooter">
+		<ul>
+			<li><a href="#">Help</a></li>
+			<li><a href="#">Terms of Use</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+
+		<span>&copy; Copyright PBS 2015</span>
+	</div>
+</div>
