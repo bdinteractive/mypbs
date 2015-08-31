@@ -126,6 +126,7 @@
 .drop-down-left-menu-list ul {
 	display: block;
 	margin-bottom: 40px;
+	padding-left: 0;
 }
 .drop-down-left-menu-list li {
 	border-top: solid 1px #9a9a9a;
@@ -225,6 +226,8 @@
 	-webkit-columns: 2;
     -moz-columns: 2;
     columns: 2;
+    padding-left: 0;
+    
 }
 .drop-down-right-menu .horz-list li {
 	margin-bottom: 5px;

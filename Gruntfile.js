@@ -34,9 +34,12 @@ module.exports = function(grunt) {
 			all: {
 				files: {
 					'js/min/main.min.js': [
+						'node_modules/jquery/dist/jquery.js',
 						'js/main.js',
 						'js/pri-nav.js',
-						'js/libs/bootstrap.js'
+						'js/libs/bootstrap.js',
+						'node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.js',
+						'node_modules/tablesorter/dist/js/jquery.tablesorter.combined.js'
 					]
 				}
 			}

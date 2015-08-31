@@ -59,29 +59,152 @@
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container-fluid margin-left-right-base">
 		<div id="pbs-content" class="row">
 			
-			<div class="col-md-2">
+			<div class="col-md-2 padding-top-base">
 
 				<p>
 					<button type="button" class="btn btn-primary btn-block">Refresh Data</button>
 				</p>
 
-				<form class="form">
-					<div class="form-group">
-						<div class="input-group">
-							<div class="input-group-addon"><i class="pbs-icon-calendar6"></i></div>
-							<input type="text" class="form-control" id="datepicker_start" placeholder="Start Date">
+				<h5>Select Date Range</h5>
+				<div class="input-daterange input-group margin-bottom-base" id="datepicker">
+				    <input type="text" class="input-sm form-control" name="start" />
+				    <span class="input-group-addon">to</span>
+				    <input type="text" class="input-sm form-control" name="end" />
+				</div>
+
+				<h5>Narrow by Category</h5>
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+					<!-- Start Accordion -->
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingOne">
+							<h4 class="panel-title">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+								Distributor
+								</a>
+							</h4>
 						</div>
-					</div>
-					<div class="form-group">
-						<div class="input-group">
-							<div class="input-group-addon"><i class="pbs-icon-calendar6"></i></div>
-							<input type="text" class="form-control" id="datepicker_end" placeholder="End Date">
+						<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+							<div class="panel-body">
+								<nav>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+								</nav>
+							</div>
 						</div>
-					</div>
-				</form>
+					</div><!-- End Accordion -->
+
+					<!-- Start Accordion -->
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingTwo">
+							<h4 class="panel-title">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								Channel
+								</a>
+							</h4>
+						</div>
+						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+							<div class="panel-body">
+								<nav>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+								</nav>
+							</div>
+						</div>
+					</div><!-- End Accordion -->
+
+					<!-- Start Accordion -->
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingThree">
+							<h4 class="panel-title">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								Discrepancy
+								</a>
+							</h4>
+						</div>
+						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+							<div class="panel-body">
+								<nav>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+								</nav>
+							</div>
+						</div>
+					</div><!-- End Accordion -->
+
+					<!-- Start Accordion -->
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingFour">
+							<h4 class="panel-title">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+								NOLA
+								</a>
+							</h4>
+						</div>
+						<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+							<div class="panel-body">
+								<nav>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+								</nav>
+							</div>
+						</div>
+					</div><!-- End Accordion -->
+
+					<!-- Start Accordion -->
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingFive">
+							<h4 class="panel-title">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+								Package Type
+								</a>
+							</h4>
+						</div>
+						<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+							<div class="panel-body">
+								<nav>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+								</nav>
+							</div>
+						</div>
+					</div><!-- End Accordion -->
+
+					<!-- Start Accordion -->
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingSix">
+							<h4 class="panel-title">
+								<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+								Author
+								</a>
+							</h4>
+						</div>
+						<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+							<div class="panel-body">
+								<nav>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+									<a href="#">Some Link</a>
+								</nav>
+							</div>
+						</div>
+					</div><!-- End Accordion -->
+
+
+				</div><!-- End Accordion Group -->
 
 			</div><!-- /col -->
 
@@ -91,7 +214,7 @@
 
 				<div class="table-responsive">
 
-					<table class="table table-condensed table-striped">
+					<table id="advisoryBoardTable" class="table table-condensed table-striped tablesorter">
 
 						<thead>
 							<tr>
@@ -120,21 +243,29 @@
 								<td>Did Not Air</td>
 								<td>Pugh, Other</td>
 								<td>10</td>
-								<td>12/4</td>
+								<td>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">12</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">4</a>
+								</td>
 								<td>04/25/2015</td>
 							</tr>
 							<tr>
 								<td>04/22/2015</td>
 								<td>NRT</td>
 								<td>04/23/2015</td>
-								<td><a href="javascript:openModal();">Call the Midwife</a></td>
+								<td><a data-toggle="modal" data-target="#modal-advisory" href="javascript:viod(0);">Call the Midwife</a></td>
 								<td>CMID000405</td>
 								<td>(HD-Pledge Event p452637-001</td>
 								<td>Catergory 2</td>
 								<td>Shaw, KUSM</td>
-								<td><a href="javascript:openModal();">2</a></td>
-								<td>11</td>
-								<td><a href="javascript:openModal();">04/25/2015</a></td>
+								<td><a data-toggle="modal" data-target="#modal-midwife" href="javascript:viod(0);">2</a></td>
+								<td>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">6</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">3</a>
+								</td>
+								<td><a data-toggle="modal" data-target="#modal-refeed" href="javascript:viod(0);">04/25/2015</a></td>
 							</tr>
 							<tr>
 								<td>04/21/2015</td>
@@ -147,8 +278,9 @@
 								<td>Yatlor, Other</td>
 								<td></td>
 								<td>
-									<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
-									<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">3</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">1</a>
 								</td>
 								<td></td>
 							</tr>
@@ -162,21 +294,29 @@
 								<td>Did Not Air</td>
 								<td>Pugh, Other</td>
 								<td>10</td>
-								<td>12/4</td>
+								<td>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">12</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">4</a>
+								</td>
 								<td>04/25/2015</td>
 							</tr>
 							<tr>
 								<td>04/22/2015</td>
 								<td>NRT</td>
 								<td>04/23/2015</td>
-								<td><a href="javascript:openModal();">Call the Midwife</a></td>
+								<td><a data-toggle="modal" data-target="#modal-advisory" href="javascript:viod(0);">Call the Midwife</a></td>
 								<td>CMID000405</td>
 								<td>(HD-Pledge Event p452637-001</td>
 								<td>Catergory 2</td>
 								<td>Shaw, KUSM</td>
-								<td><a href="javascript:openModal();">2</a></td>
-								<td>11</td>
-								<td><a href="javascript:openModal();">04/25/2015</a></td>
+								<td><a data-toggle="modal" data-target="#modal-midwife" href="javascript:viod(0);">2</a></td>
+								<td>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">6</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">3</a>
+								</td>
+								<td><a data-toggle="modal" data-target="#modal-refeed" href="javascript:viod(0);">04/25/2015</a></td>
 							</tr>
 							<tr>
 								<td>04/21/2015</td>
@@ -189,8 +329,9 @@
 								<td>Yatlor, Other</td>
 								<td></td>
 								<td>
-									<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
-									<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">3</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">1</a>
 								</td>
 								<td></td>
 							</tr>
@@ -204,21 +345,29 @@
 								<td>Did Not Air</td>
 								<td>Pugh, Other</td>
 								<td>10</td>
-								<td>12/4</td>
+								<td>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">12</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">4</a>
+								</td>
 								<td>04/25/2015</td>
 							</tr>
 							<tr>
 								<td>04/22/2015</td>
 								<td>NRT</td>
 								<td>04/23/2015</td>
-								<td><a href="javascript:openModal();">Call the Midwife</a></td>
+								<td><a data-toggle="modal" data-target="#modal-advisory" href="javascript:viod(0);">Call the Midwife</a></td>
 								<td>CMID000405</td>
 								<td>(HD-Pledge Event p452637-001</td>
 								<td>Catergory 2</td>
 								<td>Shaw, KUSM</td>
-								<td><a href="javascript:openModal();">2</a></td>
-								<td>11</td>
-								<td><a href="javascript:openModal();">04/25/2015</a></td>
+								<td><a data-toggle="modal" data-target="#modal-midwife" href="javascript:viod(0);">2</a></td>
+								<td>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">6</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">3</a>
+								</td>
+								<td><a data-toggle="modal" data-target="#modal-refeed" href="javascript:viod(0);">04/25/2015</a></td>
 							</tr>
 							<tr>
 								<td>04/21/2015</td>
@@ -231,8 +380,9 @@
 								<td>Yatlor, Other</td>
 								<td></td>
 								<td>
-									<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
-									<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">3</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">1</a>
 								</td>
 								<td></td>
 							</tr>
@@ -246,21 +396,29 @@
 								<td>Did Not Air</td>
 								<td>Pugh, Other</td>
 								<td>10</td>
-								<td>12/4</td>
+								<td>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">12</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">4</a>
+								</td>
 								<td>04/25/2015</td>
 							</tr>
 							<tr>
 								<td>04/22/2015</td>
 								<td>NRT</td>
 								<td>04/23/2015</td>
-								<td><a href="javascript:openModal();">Call the Midwife</a></td>
+								<td><a data-toggle="modal" data-target="#modal-advisory" href="javascript:viod(0);">Call the Midwife</a></td>
 								<td>CMID000405</td>
 								<td>(HD-Pledge Event p452637-001</td>
 								<td>Catergory 2</td>
 								<td>Shaw, KUSM</td>
-								<td><a href="javascript:openModal();">2</a></td>
-								<td>11</td>
-								<td><a href="javascript:openModal();">04/25/2015</a></td>
+								<td><a data-toggle="modal" data-target="#modal-midwife" href="javascript:viod(0);">2</a></td>
+								<td>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">6</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">3</a>
+								</td>
+								<td><a data-toggle="modal" data-target="#modal-refeed" href="javascript:viod(0);">04/25/2015</a></td>
 							</tr>
 							<tr>
 								<td>04/21/2015</td>
@@ -273,8 +431,9 @@
 								<td>Yatlor, Other</td>
 								<td></td>
 								<td>
-									<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
-									<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">3</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">1</a>
 								</td>
 								<td></td>
 							</tr>
@@ -288,21 +447,29 @@
 								<td>Did Not Air</td>
 								<td>Pugh, Other</td>
 								<td>10</td>
-								<td>12/4</td>
+								<td>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">12</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">4</a>
+								</td>
 								<td>04/25/2015</td>
 							</tr>
 							<tr>
 								<td>04/22/2015</td>
 								<td>NRT</td>
 								<td>04/23/2015</td>
-								<td><a href="javascript:openModal();">Call the Midwife</a></td>
+								<td><a data-toggle="modal" data-target="#modal-advisory" href="javascript:viod(0);">Call the Midwife</a></td>
 								<td>CMID000405</td>
 								<td>(HD-Pledge Event p452637-001</td>
 								<td>Catergory 2</td>
 								<td>Shaw, KUSM</td>
-								<td><a href="javascript:openModal();">2</a></td>
-								<td>11</td>
-								<td><a href="javascript:openModal();">04/25/2015</a></td>
+								<td><a data-toggle="modal" data-target="#modal-midwife" href="javascript:viod(0);">2</a></td>
+								<td>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">6</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">3</a>
+								</td>
+								<td><a data-toggle="modal" data-target="#modal-refeed" href="javascript:viod(0);">04/25/2015</a></td>
 							</tr>
 							<tr>
 								<td>04/21/2015</td>
@@ -315,8 +482,60 @@
 								<td>Yatlor, Other</td>
 								<td></td>
 								<td>
-									<a href="#" class="with-tooltip" title="Joseph Mooring WUNC, North Carolina<br>Megan Casey WTVP, Illinois<br>Timothy Bennertt WJCT, Florida">6</a>/
-									<a href="#" class="with-tooltip" title="Tommy Bahama WFYI, Indiana">3</a>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">3</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">1</a>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>04/22/2015</td>
+								<td>HD01</td>
+								<td>04/25/2015</td>
+								<td>HD PROMO REEL</td>
+								<td>HDPR000967</td>
+								<td>(HD-Base) P453669-001</td>
+								<td>Did Not Air</td>
+								<td>Pugh, Other</td>
+								<td>10</td>
+								<td>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">12</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">4</a>
+								</td>
+								<td>04/25/2015</td>
+							</tr>
+							<tr>
+								<td>04/22/2015</td>
+								<td>NRT</td>
+								<td>04/23/2015</td>
+								<td><a data-toggle="modal" data-target="#modal-advisory" href="javascript:viod(0);">Call the Midwife</a></td>
+								<td>CMID000405</td>
+								<td>(HD-Pledge Event p452637-001</td>
+								<td>Catergory 2</td>
+								<td>Shaw, KUSM</td>
+								<td><a data-toggle="modal" data-target="#modal-midwife" href="javascript:viod(0);">2</a></td>
+								<td>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">6</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">3</a>
+								</td>
+								<td><a data-toggle="modal" data-target="#modal-refeed" href="javascript:viod(0);">04/25/2015</a></td>
+							</tr>
+							<tr>
+								<td>04/21/2015</td>
+								<td>HD04</td>
+								<td>04/21/2015</td>
+								<td>My Sinatra: A Musica...</td>
+								<td>MYSI000000</td>
+								<td>(HD-Base) P453669-001</td>
+								<td>No Video</td>
+								<td>Yatlor, Other</td>
+								<td></td>
+								<td>
+									<a class="txt-success" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Joseph Mooring WUNC, North Carolina</li><li>Megan Casey WTVP, Illinois</li><li>Timothy Bennertt WJCT, Florida</li></ul>">3</a>
+									/
+									<a class="txt-danger" href="javascript:void(0);" data-container="body" data-toggle="popover" data-trigger="focus | hover" data-html="true" data-placement="top" data-content="<ul><li>Tommy Bahama WFYI, Indiana</li></ul>">1</a>
 								</td>
 								<td></td>
 							</tr>
@@ -338,24 +557,198 @@
 	<!-- Primary Footer include -->
 	<!--#include file="includes/footer.ssi" -->
 
+
+
+	<div id="modal-advisory" class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3 class="modal-title" id="gridSystemModalLabel">Advisory</h3>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+								<h4>Call the Midwife</h4>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<p>Category 1</p>
+							</div>
+							<div class="col-md-9">
+								<p>Distribution</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<p>Category 2</p>
+							</div>
+							<div class="col-md-9">
+								<p>Did not Air</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<p>Comments</p>
+							</div>
+							<div class="col-md-9">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<p>Program</p>
+							</div>
+							<div class="col-md-9">
+								<p>Call the Midwife Slate: CMID 000405</p>
+								<p>Air Date: 2015-04027 00:00:00</p>
+								<p><a href="#">technicalsupport@pbs.org</a> 1-866-call-PBS</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5">
+								<p>Are you requesting a refeed?</p>
+							</div>
+							<div class="col-md-7">
+								<p>No</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<p><a href="">Refeed</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="modal-refeed" class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3 class="modal-title" id="gridSystemModalLabel">Refeed</h3>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+								<h4>Call the Midwife</h4>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<p>CMID 000405 (HD-Base) P453669-001 CC Stereo 16:9 NRT</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<p>Action</p>
+							</div>
+							<div class="col-md-9">
+								<p>Refeed</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<p>Schedule Refeed</p>
+							</div>
+							<div class="col-md-9">
+								<p>Immediate?</p>
+								<p>4/24/2015 1900 E HD05</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<p>Comments</p>
+							</div>
+							<div class="col-md-9">
+								<p>We will provide courtesy refeed of CMID 405 @1900/HD05</p>
+								<p>The eailer feed had no issues, it was not affected by the double illimination</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+
+	<div id="modal-midwife" class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3 class="modal-title" id="gridSystemModalLabel">Call the Midwife</h3>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+								<h4>Call the Midwife</h4>
+							</div>
+						</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+
+
+
+
+
+
+
+
+
 	<!-- Load JavaScript at the Bottom -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="../js/min/main.min.js"></script>
 
-	<link rel="stylesheet" type="text/css" media="screen" href="../js/libs/pickadate/classic.css">
-	<link rel="stylesheet" type="text/css" media="screen" href="../js/libs/pickadate/classic.date.css">
-	<script src="../js/libs/pickadate/picker.js"></script>
-	<script src="../js/libs/pickadate/picker.date.js"></script>
-	<script src="../js/libs/pickadate/legacy.js"></script>
-
 	<script type="text/javascript">
-		$('#datepicker_start').pickadate({
-			showMonthsShort: true,
-			format: 'dd/mm/yy'
-		});
-		$('#datepicker_end').pickadate({
-			showMonthsShort: true,
-			format: 'dd/mm/yy'
+		$(function(){
+			$('.input-daterange').datepicker({
+				orientation: "bottom auto",
+				todayHighlight: true
+			});
+
+			$.tablesorter.themes.bootstrap = {
+				// these classes are added to the table. To see other table classes available,
+				// icon class names
+				icons        : '', // add "icon-white" to make them white; this icon class is added to the <i> in the header
+				iconSortNone : 'bootstrap-icon-unsorted', // class name added to icon when column is not sorted
+				iconSortAsc  : 'glyphicon glyphicon-chevron-up', // class name added to icon when column has ascending sort
+				iconSortDesc : 'glyphicon glyphicon-chevron-down' // class name added to icon when column has descending sort
+			};
+  			$("#advisoryBoardTable").tablesorter({
+  				initWidgets: true,
+  				theme: 'bootstrap',
+  				headerTemplate: '{content} {icon}',
+  				widgets : [ "uitheme"],
+  				headers: { 
+					1: { sorter: false }, 
+					3: { sorter: false },
+					5: { sorter: false },
+					8: { sorter: false },
+					9: { sorter: false }
+				}
+  			});
 		});
 	</script>
 

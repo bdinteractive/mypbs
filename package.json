@@ -1,13 +1,16 @@
 {
-  "name": "Brad Dedon",
+  "name": "mypbs",
   "version": "1.0.0",
   "description": "myPBS Website",
   "main": "_site/index.html",
-  "author": "@braddedon",
+  "author": "braddedon",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-compass": "^1.0.3",
     "grunt-contrib-uglify": "^0.9.1",
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-contrib-watch": "^0.6.1",
+    "jquery": "^1.11.1",
+    "bootstrap-datepicker": "https://github.com/eternicode/bootstrap-datepicker.git",
+    "tablesorter": "https://github.com/Mottie/tablesorter.git"
   }
 }

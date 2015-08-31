@@ -55,8 +55,8 @@
 
 			<!-- Menu Item -->
 			<div id="menu-001" class="menu-item">
-				<i class="pbs-icon-forms"></i>
-				<span>Forms</span>
+				<i class="pbs-icon-tv"></i>
+				<span>Watch Video</span>
 
 				<div id="menu-dropdown-01" class="clearfix">
 					<!-- Row Highlight Bar -->
@@ -134,9 +134,8 @@
 
 			<!-- Menu Item -->
 			<div id="menu-002" class="menu-item">
-
-				<i class="pbs-icon-workingatpbs"></i>
-				<span>Working at PBS</span>
+				<i class="pbs-icon-film-strip"></i>
+				<span>Programming</span>
 
 				<div id="menu-dropdown-02" class="clearfix">
 					<!-- Row Highlight Bar -->
@@ -417,8 +416,8 @@
 
 			<!-- Menu Item -->
 			<div id="menu-003" class="menu-item">
-				<i class="pbs-icon-scheduling"></i>
-				<span>Scheduling</span>
+				<i class="pbs-icon-engage"></i>
+				<span>Engage + Promote</span>
 
 				<div id="menu-dropdown-03" class="clearfix" style="margin-left:-187px;">
 					<!-- Row Highlight Bar -->
@@ -496,8 +495,8 @@
 
 			<!-- Menu Item -->
 			<div id="menu-004" class="menu-item">
-				<i class="pbs-icon-benefits"></i>
-				<span>Benefits</span>
+				<i class="pbs-icon-line-chart"></i>
+				<span>Development</span>
 
 				<div id="menu-dropdown-04" class="clearfix" style="margin-left:-327px;">
 					<!-- Row Highlight Bar -->
@@ -575,8 +574,8 @@
 
 			<!-- Menu Item -->
 			<div id="menu-005" class="menu-item">
-				<i class="pbs-icon-education"></i>
-				<span>Education</span>
+				<i class="pbs-icon-gear"></i>
+				<span>Station Management</span>
 
 				<div id="menu-dropdown-05" class="clearfix" style="margin-left:-467px;">
 					<!-- Row Highlight Bar -->
@@ -654,8 +653,8 @@
 
 			<!-- Menu Item -->
 			<div id="menu-006" class="menu-item">
-				<i class="pbs-icon-workday" style="font-size:78px;line-height:55px;"></i>
-				<span>Workday</span>
+				<i class="pbs-icon-feeds" style="font-size:78px;line-height:55px;"></i>
+				<span>Feeds</span>
 
 				<div id="menu-dropdown-06" class="clearfix" style="margin-left:-607px;">
 					<!-- Row Highlight Bar -->
