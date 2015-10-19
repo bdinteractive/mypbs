@@ -39,7 +39,8 @@ module.exports = function(grunt) {
 						'js/pri-nav.js',
 						'js/libs/bootstrap.js',
 						'node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.js',
-						'node_modules/tablesorter/dist/js/jquery.tablesorter.combined.js'
+						'node_modules/tablesorter/dist/js/jquery.tablesorter.combined.js',
+						'libs/webslide/full-width-menu/js/webslidemenu.js'
 					]
 				}
 			}

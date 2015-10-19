@@ -1,6 +1,12 @@
+@media (max-width: $screen-xs-max) {
+	#right-sticky-nav {
+		display: none;
+	}
+}
+
 #right-sticky-nav {
 	position: fixed;
-	right: -137px; /* stick to the left */;
+	right: -114px; /* stick to the left */;
 	top: 50%;
 	z-index: 3;
 	-ms-transform: rotate(-90deg);
