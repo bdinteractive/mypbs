@@ -19,15 +19,13 @@ module.exports = function(grunt) {
 				options: {
 					sassDir: 'sass',
 					cssDir: 'styles',
-					environment: 'development'
-				}
+					environment: 'development'				}
 			},
 			prod: {
 				options: {
 					sassDir: 'sass',
 					cssDir: 'styles',
-					environment: 'production'	
-				}
+					environment: 'production'				}
 			}
 		},
 		uglify: {

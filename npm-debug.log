@@ -1,0 +1,230 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.13.1
+3 info using node@v0.12.7
+4 verbose readDependencies loading dependencies from /Users/bdedon/Dropbox/_sites/myPBS/package.json
+5 warn package.json mypbs@1.0.0 No repository field.
+6 warn package.json mypbs@1.0.0 No license field.
+7 verbose install where, deps [ '/Users/bdedon/Dropbox/_sites/myPBS',
+7 verbose install   [ 'grunt',
+7 verbose install     'grunt-contrib-compass',
+7 verbose install     'grunt-contrib-uglify',
+7 verbose install     'grunt-contrib-watch',
+7 verbose install     'jquery',
+7 verbose install     'bootstrap-datepicker',
+7 verbose install     'tablesorter',
+7 verbose install     'sass-css-importer' ] ]
+8 verbose install where, peers [ '/Users/bdedon/Dropbox/_sites/myPBS', [] ]
+9 verbose installManyTop reading for lifecycle /Users/bdedon/Dropbox/_sites/myPBS/package.json
+10 info preinstall mypbs@1.0.0
+11 verbose installManyTop reading scoped package data from /Users/bdedon/Dropbox/_sites/myPBS/node_modules/bootstrap-datepicker/package.json
+12 verbose installManyTop reading scoped package data from /Users/bdedon/Dropbox/_sites/myPBS/node_modules/grunt/package.json
+13 verbose installManyTop reading scoped package data from /Users/bdedon/Dropbox/_sites/myPBS/node_modules/grunt-contrib-compass/package.json
+14 verbose installManyTop reading scoped package data from /Users/bdedon/Dropbox/_sites/myPBS/node_modules/grunt-contrib-uglify/package.json
+15 verbose installManyTop reading scoped package data from /Users/bdedon/Dropbox/_sites/myPBS/node_modules/grunt-contrib-watch/package.json
+16 verbose installManyTop reading scoped package data from /Users/bdedon/Dropbox/_sites/myPBS/node_modules/jquery/package.json
+17 verbose installManyTop reading scoped package data from /Users/bdedon/Dropbox/_sites/myPBS/node_modules/tablesorter/package.json
+18 info package.json grunt@0.4.5 No license field.
+19 info package.json grunt-contrib-uglify@0.9.1 No license field.
+20 info package.json grunt-contrib-watch@0.6.1 No license field.
+21 info package.json grunt-contrib-compass@1.0.3 No license field.
+22 info package.json jquery@1.11.3 No license field.
+23 verbose readDependencies loading dependencies from /Users/bdedon/Dropbox/_sites/myPBS/package.json
+24 verbose targetResolver reading package data from /Users/bdedon/Dropbox/_sites/myPBS/node_modules/bootstrap-datepicker/package.json
+25 verbose targetResolver reading package data from /Users/bdedon/Dropbox/_sites/myPBS/node_modules/grunt/package.json
+26 verbose targetResolver reading package data from /Users/bdedon/Dropbox/_sites/myPBS/node_modules/grunt-contrib-compass/package.json
+27 verbose targetResolver reading package data from /Users/bdedon/Dropbox/_sites/myPBS/node_modules/grunt-contrib-uglify/package.json
+28 verbose targetResolver reading package data from /Users/bdedon/Dropbox/_sites/myPBS/node_modules/grunt-contrib-watch/package.json
+29 verbose targetResolver reading package data from /Users/bdedon/Dropbox/_sites/myPBS/node_modules/jquery/package.json
+30 verbose targetResolver reading package data from /Users/bdedon/Dropbox/_sites/myPBS/node_modules/tablesorter/package.json
+31 silly cache add args [ 'bootstrap-datepicker@git+https://github.com/eternicode/bootstrap-datepicker.git',
+31 silly cache add   null ]
+32 verbose cache add spec bootstrap-datepicker@git+https://github.com/eternicode/bootstrap-datepicker.git
+33 silly cache add args [ 'tablesorter@git+https://github.com/Mottie/tablesorter.git',
+33 silly cache add   null ]
+34 verbose cache add spec tablesorter@git+https://github.com/Mottie/tablesorter.git
+35 silly cache add args [ 'sass-css-importer@git+https://github.com/chriseppstein/sass-css-importer.git',
+35 silly cache add   null ]
+36 verbose cache add spec sass-css-importer@git+https://github.com/chriseppstein/sass-css-importer.git
+37 verbose already installed skipping grunt@^0.4.5 /Users/bdedon/Dropbox/_sites/myPBS
+38 verbose already installed skipping grunt-contrib-compass@^1.0.3 /Users/bdedon/Dropbox/_sites/myPBS
+39 verbose already installed skipping grunt-contrib-uglify@^0.9.1 /Users/bdedon/Dropbox/_sites/myPBS
+40 verbose already installed skipping grunt-contrib-watch@^0.6.1 /Users/bdedon/Dropbox/_sites/myPBS
+41 verbose already installed skipping jquery@^1.11.1 /Users/bdedon/Dropbox/_sites/myPBS
+42 silly cache add parsed spec { raw: 'bootstrap-datepicker@git+https://github.com/eternicode/bootstrap-datepicker.git',
+42 silly cache add   scope: null,
+42 silly cache add   name: 'bootstrap-datepicker',
+42 silly cache add   rawSpec: 'git+https://github.com/eternicode/bootstrap-datepicker.git',
+42 silly cache add   spec: 'git+https://github.com/eternicode/bootstrap-datepicker.git',
+42 silly cache add   type: 'hosted',
+42 silly cache add   hosted:
+42 silly cache add    { type: 'github',
+42 silly cache add      ssh: 'git@github.com:eternicode/bootstrap-datepicker.git',
+42 silly cache add      sshUrl: 'git+ssh://git@github.com/eternicode/bootstrap-datepicker.git',
+42 silly cache add      httpsUrl: 'git+https://github.com/eternicode/bootstrap-datepicker.git',
+42 silly cache add      gitUrl: 'git://github.com/eternicode/bootstrap-datepicker.git',
+42 silly cache add      shortcut: 'github:eternicode/bootstrap-datepicker',
+42 silly cache add      directUrl: 'https://raw.githubusercontent.com/eternicode/bootstrap-datepicker/master/package.json' } }
+43 verbose addRemoteGit caching git+https://github.com/eternicode/bootstrap-datepicker.git
+44 verbose addRemoteGit git+https://github.com/eternicode/bootstrap-datepicker.git is a repository hosted by github
+45 silly tryClone cloning git+https://github.com/eternicode/bootstrap-datepicker.git via git+https://github.com/eternicode/bootstrap-datepicker.git
+46 verbose tryClone https-github-com-eternicode-bootstrap-datepicker-git-4799269e not in flight; caching
+47 silly cache add parsed spec { raw: 'tablesorter@git+https://github.com/Mottie/tablesorter.git',
+47 silly cache add   scope: null,
+47 silly cache add   name: 'tablesorter',
+47 silly cache add   rawSpec: 'git+https://github.com/Mottie/tablesorter.git',
+47 silly cache add   spec: 'git+https://github.com/Mottie/tablesorter.git',
+47 silly cache add   type: 'hosted',
+47 silly cache add   hosted:
+47 silly cache add    { type: 'github',
+47 silly cache add      ssh: 'git@github.com:Mottie/tablesorter.git',
+47 silly cache add      sshUrl: 'git+ssh://git@github.com/Mottie/tablesorter.git',
+47 silly cache add      httpsUrl: 'git+https://github.com/Mottie/tablesorter.git',
+47 silly cache add      gitUrl: 'git://github.com/Mottie/tablesorter.git',
+47 silly cache add      shortcut: 'github:Mottie/tablesorter',
+47 silly cache add      directUrl: 'https://raw.githubusercontent.com/Mottie/tablesorter/master/package.json' } }
+48 verbose addRemoteGit caching git+https://github.com/Mottie/tablesorter.git
+49 verbose addRemoteGit git+https://github.com/Mottie/tablesorter.git is a repository hosted by github
+50 silly tryClone cloning git+https://github.com/Mottie/tablesorter.git via git+https://github.com/Mottie/tablesorter.git
+51 verbose tryClone https-github-com-Mottie-tablesorter-git-a1af6f42 not in flight; caching
+52 silly cache add parsed spec { raw: 'sass-css-importer@git+https://github.com/chriseppstein/sass-css-importer.git',
+52 silly cache add   scope: null,
+52 silly cache add   name: 'sass-css-importer',
+52 silly cache add   rawSpec: 'git+https://github.com/chriseppstein/sass-css-importer.git',
+52 silly cache add   spec: 'git+https://github.com/chriseppstein/sass-css-importer.git',
+52 silly cache add   type: 'hosted',
+52 silly cache add   hosted:
+52 silly cache add    { type: 'github',
+52 silly cache add      ssh: 'git@github.com:chriseppstein/sass-css-importer.git',
+52 silly cache add      sshUrl: 'git+ssh://git@github.com/chriseppstein/sass-css-importer.git',
+52 silly cache add      httpsUrl: 'git+https://github.com/chriseppstein/sass-css-importer.git',
+52 silly cache add      gitUrl: 'git://github.com/chriseppstein/sass-css-importer.git',
+52 silly cache add      shortcut: 'github:chriseppstein/sass-css-importer',
+52 silly cache add      directUrl: 'https://raw.githubusercontent.com/chriseppstein/sass-css-importer/master/package.json' } }
+53 verbose addRemoteGit caching git+https://github.com/chriseppstein/sass-css-importer.git
+54 verbose addRemoteGit git+https://github.com/chriseppstein/sass-css-importer.git is a repository hosted by github
+55 silly tryClone cloning git+https://github.com/chriseppstein/sass-css-importer.git via git+https://github.com/chriseppstein/sass-css-importer.git
+56 verbose tryClone https-github-com-chriseppstein-sass-css-importer-git-faccc645 not in flight; caching
+57 info git [ 'config', '--get', 'remote.origin.url' ]
+58 info git [ 'config', '--get', 'remote.origin.url' ]
+59 info git [ 'config', '--get', 'remote.origin.url' ]
+60 silly validateExistingRemote git+https://github.com/eternicode/bootstrap-datepicker.git remote.origin.url: https://github.com/eternicode/bootstrap-datepicker.git
+61 verbose validateExistingRemote git+https://github.com/eternicode/bootstrap-datepicker.git is updating existing cached remote /Users/bdedon/.npm/_git-remotes/https-github-com-eternicode-bootstrap-datepicker-git-4799269e
+62 silly validateExistingRemote git+https://github.com/chriseppstein/sass-css-importer.git remote.origin.url: https://github.com/chriseppstein/sass-css-importer.git
+63 verbose validateExistingRemote git+https://github.com/chriseppstein/sass-css-importer.git is updating existing cached remote /Users/bdedon/.npm/_git-remotes/https-github-com-chriseppstein-sass-css-importer-git-faccc645
+64 silly validateExistingRemote git+https://github.com/Mottie/tablesorter.git remote.origin.url: https://github.com/Mottie/tablesorter.git
+65 verbose validateExistingRemote git+https://github.com/Mottie/tablesorter.git is updating existing cached remote /Users/bdedon/.npm/_git-remotes/https-github-com-Mottie-tablesorter-git-a1af6f42
+66 info git [ 'fetch', '-a', 'origin' ]
+67 info git [ 'fetch', '-a', 'origin' ]
+68 info git [ 'fetch', '-a', 'origin' ]
+69 verbose updateRemote git fetch -a origin (https://github.com/chriseppstein/sass-css-importer.git)
+70 verbose setPermissions git+https://github.com/chriseppstein/sass-css-importer.git set permissions on /Users/bdedon/.npm/_git-remotes/https-github-com-chriseppstein-sass-css-importer-git-faccc645
+71 verbose resolveHead git+https://github.com/chriseppstein/sass-css-importer.git original treeish: master
+72 info git [ 'rev-list', '-n1', 'master' ]
+73 silly resolveHead git+https://github.com/chriseppstein/sass-css-importer.git resolved treeish: 436c7a64aa2f09635deb652263aa1f5e71b7ef92
+74 verbose resolveHead git+https://github.com/chriseppstein/sass-css-importer.git resolved Git URL: git+https://github.com/chriseppstein/sass-css-importer.git#436c7a64aa2f09635deb652263aa1f5e71b7ef92
+75 silly resolveHead Git working directory: /tmp/npm-27758-90445cb9/git-cache-9d59fc08b59f/436c7a64aa2f09635deb652263aa1f5e71b7ef92
+76 info git [ 'clone',
+76 info git   '/Users/bdedon/.npm/_git-remotes/https-github-com-chriseppstein-sass-css-importer-git-faccc645',
+76 info git   '/tmp/npm-27758-90445cb9/git-cache-9d59fc08b59f/436c7a64aa2f09635deb652263aa1f5e71b7ef92' ]
+77 verbose updateRemote git fetch -a origin (https://github.com/Mottie/tablesorter.git)
+78 verbose setPermissions git+https://github.com/Mottie/tablesorter.git set permissions on /Users/bdedon/.npm/_git-remotes/https-github-com-Mottie-tablesorter-git-a1af6f42
+79 verbose resolveHead git+https://github.com/Mottie/tablesorter.git original treeish: master
+80 info git [ 'rev-list', '-n1', 'master' ]
+81 silly resolveHead git+https://github.com/Mottie/tablesorter.git resolved treeish: ddae7a3c16a23bd8e225db68af6bcdad62e2a3a1
+82 verbose resolveHead git+https://github.com/Mottie/tablesorter.git resolved Git URL: git+https://github.com/Mottie/tablesorter.git#ddae7a3c16a23bd8e225db68af6bcdad62e2a3a1
+83 silly resolveHead Git working directory: /tmp/npm-27758-90445cb9/git-cache-24f7bc5f54b1/ddae7a3c16a23bd8e225db68af6bcdad62e2a3a1
+84 info git [ 'clone',
+84 info git   '/Users/bdedon/.npm/_git-remotes/https-github-com-Mottie-tablesorter-git-a1af6f42',
+84 info git   '/tmp/npm-27758-90445cb9/git-cache-24f7bc5f54b1/ddae7a3c16a23bd8e225db68af6bcdad62e2a3a1' ]
+85 verbose cloneResolved git+https://github.com/chriseppstein/sass-css-importer.git clone Cloning into '/tmp/npm-27758-90445cb9/git-cache-9d59fc08b59f/436c7a64aa2f09635deb652263aa1f5e71b7ef92'...
+85 verbose cloneResolved done.
+86 info git [ 'checkout', '436c7a64aa2f09635deb652263aa1f5e71b7ef92' ]
+87 verbose checkoutTreeish git+https://github.com/chriseppstein/sass-css-importer.git checkout Note: checking out '436c7a64aa2f09635deb652263aa1f5e71b7ef92'.
+87 verbose checkoutTreeish
+87 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+87 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+87 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+87 verbose checkoutTreeish
+87 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+87 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+87 verbose checkoutTreeish
+87 verbose checkoutTreeish   git checkout -b new_branch_name
+87 verbose checkoutTreeish
+87 verbose checkoutTreeish HEAD is now at 436c7a6... Add MIT license.
+88 error addLocal Could not install /tmp/npm-27758-90445cb9/git-cache-9d59fc08b59f/436c7a64aa2f09635deb652263aa1f5e71b7ef92
+89 verbose updateRemote git fetch -a origin (https://github.com/eternicode/bootstrap-datepicker.git)
+90 verbose setPermissions git+https://github.com/eternicode/bootstrap-datepicker.git set permissions on /Users/bdedon/.npm/_git-remotes/https-github-com-eternicode-bootstrap-datepicker-git-4799269e
+91 verbose resolveHead git+https://github.com/eternicode/bootstrap-datepicker.git original treeish: master
+92 info git [ 'rev-list', '-n1', 'master' ]
+93 silly resolveHead git+https://github.com/eternicode/bootstrap-datepicker.git resolved treeish: 4ff617c0f283c9f6e7caf74bab0afd31170ca412
+94 verbose resolveHead git+https://github.com/eternicode/bootstrap-datepicker.git resolved Git URL: git+https://github.com/eternicode/bootstrap-datepicker.git#4ff617c0f283c9f6e7caf74bab0afd31170ca412
+95 silly resolveHead Git working directory: /tmp/npm-27758-90445cb9/git-cache-207a39c7de05/4ff617c0f283c9f6e7caf74bab0afd31170ca412
+96 info git [ 'clone',
+96 info git   '/Users/bdedon/.npm/_git-remotes/https-github-com-eternicode-bootstrap-datepicker-git-4799269e',
+96 info git   '/tmp/npm-27758-90445cb9/git-cache-207a39c7de05/4ff617c0f283c9f6e7caf74bab0afd31170ca412' ]
+97 verbose cloneResolved git+https://github.com/Mottie/tablesorter.git clone Cloning into '/tmp/npm-27758-90445cb9/git-cache-24f7bc5f54b1/ddae7a3c16a23bd8e225db68af6bcdad62e2a3a1'...
+97 verbose cloneResolved done.
+98 info git [ 'checkout', 'ddae7a3c16a23bd8e225db68af6bcdad62e2a3a1' ]
+99 verbose cloneResolved git+https://github.com/eternicode/bootstrap-datepicker.git clone Cloning into '/tmp/npm-27758-90445cb9/git-cache-207a39c7de05/4ff617c0f283c9f6e7caf74bab0afd31170ca412'...
+99 verbose cloneResolved done.
+100 info git [ 'checkout', '4ff617c0f283c9f6e7caf74bab0afd31170ca412' ]
+101 verbose checkoutTreeish git+https://github.com/Mottie/tablesorter.git checkout Note: checking out 'ddae7a3c16a23bd8e225db68af6bcdad62e2a3a1'.
+101 verbose checkoutTreeish
+101 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+101 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+101 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+101 verbose checkoutTreeish
+101 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+101 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+101 verbose checkoutTreeish
+101 verbose checkoutTreeish   git checkout -b new_branch_name
+101 verbose checkoutTreeish
+101 verbose checkoutTreeish HEAD is now at ddae7a3... Grunt: update minified widgets
+102 verbose addLocalDirectory /Users/bdedon/.npm/tablesorter/2.24.3/package.tgz not in flight; packing
+103 verbose tar pack [ '/Users/bdedon/.npm/tablesorter/2.24.3/package.tgz',
+103 verbose tar pack   '/tmp/npm-27758-90445cb9/git-cache-24f7bc5f54b1/ddae7a3c16a23bd8e225db68af6bcdad62e2a3a1' ]
+104 verbose tarball /Users/bdedon/.npm/tablesorter/2.24.3/package.tgz
+105 verbose folder /tmp/npm-27758-90445cb9/git-cache-24f7bc5f54b1/ddae7a3c16a23bd8e225db68af6bcdad62e2a3a1
+106 verbose checkoutTreeish git+https://github.com/eternicode/bootstrap-datepicker.git checkout Note: checking out '4ff617c0f283c9f6e7caf74bab0afd31170ca412'.
+106 verbose checkoutTreeish
+106 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+106 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+106 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+106 verbose checkoutTreeish
+106 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+106 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+106 verbose checkoutTreeish
+106 verbose checkoutTreeish   git checkout -b new_branch_name
+106 verbose checkoutTreeish
+106 verbose checkoutTreeish HEAD is now at 4ff617c... Merge branch '1.5'
+107 verbose addLocalDirectory /Users/bdedon/.npm/bootstrap-datepicker/1.6.0-dev/package.tgz not in flight; packing
+108 verbose tar pack [ '/Users/bdedon/.npm/bootstrap-datepicker/1.6.0-dev/package.tgz',
+108 verbose tar pack   '/tmp/npm-27758-90445cb9/git-cache-207a39c7de05/4ff617c0f283c9f6e7caf74bab0afd31170ca412' ]
+109 verbose tarball /Users/bdedon/.npm/bootstrap-datepicker/1.6.0-dev/package.tgz
+110 verbose folder /tmp/npm-27758-90445cb9/git-cache-207a39c7de05/4ff617c0f283c9f6e7caf74bab0afd31170ca412
+111 verbose addLocalTarball adding from inside cache /Users/bdedon/.npm/tablesorter/2.24.3/package.tgz
+112 verbose addRemoteGit data._from: git+https://github.com/Mottie/tablesorter.git
+113 verbose addRemoteGit data._resolved: git+https://github.com/Mottie/tablesorter.git#ddae7a3c16a23bd8e225db68af6bcdad62e2a3a1
+114 silly cache afterAdd tablesorter@2.24.3
+115 verbose afterAdd /Users/bdedon/.npm/tablesorter/2.24.3/package/package.json not in flight; writing
+116 verbose afterAdd /Users/bdedon/.npm/tablesorter/2.24.3/package/package.json written
+117 verbose addLocalTarball adding from inside cache /Users/bdedon/.npm/bootstrap-datepicker/1.6.0-dev/package.tgz
+118 verbose addRemoteGit data._from: git+https://github.com/eternicode/bootstrap-datepicker.git
+119 verbose addRemoteGit data._resolved: git+https://github.com/eternicode/bootstrap-datepicker.git#4ff617c0f283c9f6e7caf74bab0afd31170ca412
+120 silly cache afterAdd bootstrap-datepicker@1.6.0-dev
+121 verbose afterAdd /Users/bdedon/.npm/bootstrap-datepicker/1.6.0-dev/package/package.json not in flight; writing
+122 verbose afterAdd /Users/bdedon/.npm/bootstrap-datepicker/1.6.0-dev/package/package.json written
+123 verbose stack Error: EISDIR, read
+123 verbose stack     at Error (native)
+124 verbose cwd /Users/bdedon/Dropbox/_sites/myPBS
+125 error Darwin 14.3.0
+126 error argv "node" "/usr/local/bin/npm" "install"
+127 error node v0.12.7
+128 error npm  v2.13.1
+129 error code EISDIR
+130 error errno -21
+131 error EISDIR, read
+132 error If you need help, you may report this error at:
+132 error     <https://github.com/npm/npm/issues>
+133 verbose exit [ -21, true ]
