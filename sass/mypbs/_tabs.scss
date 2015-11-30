@@ -1,0 +1,13 @@
+.tabs-left {
+	border-bottom: none;
+}
+.tabs-left li {
+	float: none;
+}
+.tabs-left li,
+.tabs-left li.active a,
+.tabs-left li a,
+.tabs-left li a:hover,
+.tabs-left li.active a:hover {
+	border: none !important;
+}
