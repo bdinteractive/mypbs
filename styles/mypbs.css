@@ -9950,7 +9950,7 @@ a:focus {outline:none !important;}
   opacity: 1;
 }
 
-/* line 97, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 99, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .megamenu {
   width: 100%;
   left: 0px;
@@ -9975,7 +9975,7 @@ a:focus {outline:none !important;}
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 }
 
-/* line 120, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 122, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .megamenu .title {
   border-bottom: 1px solid #CCC;
   font-size: 14px;
@@ -9987,7 +9987,7 @@ a:focus {outline:none !important;}
   height: 39px;
 }
 
-/* line 130, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 132, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .link-list li {
   display: block;
   text-align: center;
@@ -9995,7 +9995,7 @@ a:focus {outline:none !important;}
   text-align: left;
 }
 
-/* line 136, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 138, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .link-list li a {
   line-height: 18px;
   border-right: none;
@@ -10011,19 +10011,19 @@ a:focus {outline:none !important;}
   color: #424242;
 }
 
-/* line 150, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 152, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .link-list .fa {
   font-size: 11px;
 }
 
-/* line 152, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 154, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .megacollink {
   width: 23%;
   float: left;
   margin: 0% 1%;
 }
 
-/* line 153, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 155, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .megacollink li {
   display: block;
   text-align: center;
@@ -10031,7 +10031,7 @@ a:focus {outline:none !important;}
   text-align: left;
 }
 
-/* line 158, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 160, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .megacollink li a {
   line-height: 18px;
   border-right: none;
@@ -10047,45 +10047,45 @@ a:focus {outline:none !important;}
   color: #424242;
 }
 
-/* line 171, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 173, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .megacollink .fa {
   font-size: 11px;
 }
 
-/* line 173, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 175, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .megacolimage {
   width: 31.33%;
   float: left;
   margin: 0% 1%;
 }
 
-/* line 174, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 176, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .typographydiv {
   width: 100%;
   margin: 0% 0%;
 }
 
-/* line 175, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 177, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .typographylinks {
   width: 25%;
   float: left;
   margin: 0% 0%;
 }
 
-/* line 176, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 178, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .mainmapdiv {
   width: 100%;
   display: block;
   margin: 0% 0%;
 }
 
-/* line 178, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 180, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list .ad-style {
   width: 28%;
   float: right;
 }
 
-/* line 179, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 181, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list .ad-style a {
   border: none !important;
   padding: 0px !important;
@@ -10094,35 +10094,35 @@ a:focus {outline:none !important;}
   background-image: none !important;
 }
 
-/* line 180, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 182, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .mobile-sub .megamenu .ad-style a:hover {
   background-color: transparent !important;
 }
 
-/* line 181, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 183, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list .megamenu li:hover > a {
   background: transparent !important;
 }
 
-/* line 182, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 184, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list .megamenu li a:hover {
   background: transparent !important;
   text-decoration: underline;
 }
 
-/* line 183, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 185, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list .megamenu li .fa {
   margin-right: 5px;
   text-align: center;
   width: 18px;
 }
 
-/* line 184, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 186, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .mrgtop {
   margin-top: 15px;
 }
 
-/* line 185, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 187, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .show-grid div {
   padding-bottom: 10px;
   padding-top: 10px;
@@ -10132,99 +10132,52 @@ a:focus {outline:none !important;}
   margin: 2px 0px;
 }
 
-/*Form for desktop */
-/* line 188, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
-.halfdiv {
-  width: 35%;
-  right: 0px !important;
-  left: auto;
-}
+/*Form for desktop 
+.halfdiv{
+	width:35%;
+	right:0px !important;
+	left:auto;}
+	
+.menu_form{width:100%; display:block;}
+.menu_form input[type="text"]{
+	width:100%;
+	border:1px solid #e2e2e2;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	color:#000;
+	font-size:13px;
+	padding:8px 5px;
+	margin-bottom:8px;
+	}
+.menu_form textarea{
+	width:100%;
+	border:1px solid #e2e2e2;
+	border-radius:5px;
+	color:#000;
+	font-size:13px;
+	padding:8px 5px;
+	margin-bottom:8px;
+	min-height:122px;}
+	
+.menu_form input[type="submit"]{width:25%; display:block; height:28px; float:right;  border:solid 1px #ccc; margin-right:15px; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;}
+.menu_form input[type="button"] {width:25%; display:block; height:28px; float:right; border:solid 1px #ccc; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;}
 
-/* line 193, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
-.menu_form {
-  width: 100%;
-  display: block;
-}
-
-/* line 194, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
-.menu_form input[type="text"] {
-  width: 100%;
-  border: 1px solid #e2e2e2;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  color: #000;
-  font-size: 13px;
-  padding: 8px 5px;
-  margin-bottom: 8px;
-}
-
-/* line 205, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
-.menu_form textarea {
-  width: 100%;
-  border: 1px solid #e2e2e2;
-  border-radius: 5px;
-  color: #000;
-  font-size: 13px;
-  padding: 8px 5px;
-  margin-bottom: 8px;
-  min-height: 122px;
-}
-
-/* line 215, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
-.menu_form input[type="submit"] {
-  width: 25%;
-  display: block;
-  height: 28px;
-  float: right;
-  border: solid 1px #ccc;
-  margin-right: 15px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-}
-
-/* line 216, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
-.menu_form input[type="button"] {
-  width: 25%;
-  display: block;
-  height: 28px;
-  float: right;
-  border: solid 1px #ccc;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-}
-
-/* line 218, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
-.megamenu .left.carousel-control {
-  padding-top: 20%;
-}
-
-/* line 219, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
-.megamenu .right.carousel-control {
-  padding-top: 20%;
-}
-
-/* line 220, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
-.carousel-inner .item img {
-  width: 100%;
-}
-
-/* line 221, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
-.megamenu .carousel-caption {
-  bottom: 0px;
-  background-color: rgba(0, 0, 0, 0.7);
-  font-size: 13px;
-  height: 31px;
-  left: 0;
-  padding: 7px 0;
-  right: 0;
-  width: 100%;
-}
+.megamenu .left.carousel-control{ padding-top:20%; }
+.megamenu .right.carousel-control{ padding-top:20%; }
+.carousel-inner .item img{ width:100%; }
+.megamenu .carousel-caption{
+	bottom:0px;
+	background-color:rgba(0,0,0,0.7);
+    font-size: 13px;
+    height: 31px;
+    left: 0;
+    padding: 7px 0;
+    right: 0;
+    width: 100%;}
 
 /*Animation*/
-/* line 232, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 234, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list li > .wsmenu-submenu {
   transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
@@ -10237,7 +10190,7 @@ a:focus {outline:none !important;}
   visibility: hidden;
 }
 
-/* line 244, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 246, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list li:hover > .wsmenu-submenu {
   transform: rotateX(0deg);
   -o-transform: rotateX(0deg);
@@ -10247,7 +10200,7 @@ a:focus {outline:none !important;}
   visibility: visible;
 }
 
-/* line 253, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 255, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-submenu li > .wsmenu-submenu-sub {
   transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
@@ -10260,7 +10213,7 @@ a:focus {outline:none !important;}
   visibility: hidden;
 }
 
-/* line 265, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 267, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-submenu li:hover > .wsmenu-submenu-sub {
   transform: rotateX(0deg);
   -o-transform: rotateX(0deg);
@@ -10270,7 +10223,7 @@ a:focus {outline:none !important;}
   visibility: visible;
 }
 
-/* line 274, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 276, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-submenu-sub li > .wsmenu-submenu-sub-sub {
   transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
@@ -10283,7 +10236,7 @@ a:focus {outline:none !important;}
   visibility: hidden;
 }
 
-/* line 286, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 288, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-submenu-sub li:hover > .wsmenu-submenu-sub-sub {
   transform: rotateX(0deg);
   -o-transform: rotateX(0deg);
@@ -10293,7 +10246,7 @@ a:focus {outline:none !important;}
   visibility: visible;
 }
 
-/* line 296, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 298, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list li > .megamenu {
   transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
@@ -10306,8 +10259,18 @@ a:focus {outline:none !important;}
   visibility: hidden;
 }
 
-/* line 308, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 310, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list li:hover > .megamenu {
+  /*	transform: rotateX(0deg);
+  	-o-transform: rotateX(0deg);
+  	-moz-transform: rotateX(0deg);
+  	-webkit-transform: rotateX(0deg);
+      opacity: 1;
+  	visibility:visible;*/
+}
+
+/* line 319, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+.wsmenu-list li.open > .megamenu {
   transform: rotateX(0deg);
   -o-transform: rotateX(0deg);
   -moz-transform: rotateX(0deg);
@@ -10317,7 +10280,7 @@ a:focus {outline:none !important;}
 }
 
 /* Submenu CSS */
-/* line 319, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 330, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-submenu {
   position: absolute;
   top: 48px;
@@ -10337,7 +10300,7 @@ a:focus {outline:none !important;}
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 }
 
-/* line 337, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 348, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-submenu li a {
   background: #fff !important;
   background-image: none !important;
@@ -10353,24 +10316,24 @@ a:focus {outline:none !important;}
   border-right: 0px solid;
 }
 
-/* line 351, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 362, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-submenu li {
   position: relative;
   margin: 0px;
   padding: 0px;
 }
 
-/* line 353, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 364, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenuexpandermain {
   display: none;
 }
 
-/* line 355, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 366, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list li:hover .wsmenu-submenu {
   display: block;
 }
 
-/* line 357, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 368, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list .wsmenu-submenu .wsmenu-submenu-sub {
   min-width: 220px;
   position: absolute;
@@ -10389,7 +10352,7 @@ a:focus {outline:none !important;}
   -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
 }
 
-/* line 368, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 379, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list .wsmenu-submenu li:hover .wsmenu-submenu-sub {
   opacity: 1;
   list-style: none;
@@ -10398,12 +10361,12 @@ a:focus {outline:none !important;}
   background-color: #fff;
 }
 
-/* line 369, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 386, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list .wsmenu-submenu li:hover .wsmenu-submenu-sub {
-  display: block;
+  /*display:block;*/
 }
 
-/* line 370, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 387, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list .wsmenu-submenu .wsmenu-submenu-sub .wsmenu-submenu-sub-sub {
   min-width: 220px;
   position: absolute;
@@ -10422,7 +10385,7 @@ a:focus {outline:none !important;}
   -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
 }
 
-/* line 382, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 399, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list .wsmenu-submenu .wsmenu-submenu-sub li:hover .wsmenu-submenu-sub-sub {
   opacity: 1;
   list-style: none;
@@ -10431,7 +10394,7 @@ a:focus {outline:none !important;}
   background-color: #fff;
 }
 
-/* line 384, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 407, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-submenu li {
   position: relative;
   padding: 0px;
@@ -10439,31 +10402,31 @@ a:focus {outline:none !important;}
   display: block;
 }
 
-/* line 386, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 409, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-click {
   display: none;
 }
 
 /* Default Theme */
-/* line 390, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 413, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list li:hover > a {
   background-color: rgba(0, 0, 0, 0.08) !important;
   text-decoration: none;
 }
 
-/* line 391, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 417, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list > li > a:hover {
   background-color: rgba(0, 0, 0, 0.08) !important;
   text-decoration: none;
 }
 
-/* line 392, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 418, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-list > li > a.active {
   background-color: rgba(0, 0, 0, 0.08) !important;
   text-decoration: none;
 }
 
-/* line 393, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 419, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-submenu > li > a:hover {
   background-color: rgba(0, 0, 0, 0.08) !important;
   border-radius: 0px !important;
@@ -10471,147 +10434,147 @@ a:focus {outline:none !important;}
   text-decoration: none;
 }
 
-/* line 395, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 421, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .typography-text {
   padding: 0px 0px;
   font-size: 15px;
 }
 
-/* line 396, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 422, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .typography-text p {
   text-align: justify;
   line-height: 24px;
   color: #656565;
 }
 
-/* line 397, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 423, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .typography-text ul li {
   display: block;
   padding: 2px 0px;
   line-height: 22px;
 }
 
-/* line 398, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 424, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .typography-text ul li a {
   color: #656565;
 }
 
-/* line 399, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 425, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .hometext {
   display: none;
 }
 
-/* line 400, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+/* line 426, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
 .wsmenu-submenu .fa {
   margin-right: 7px;
 }
 
 @media only screen and (min-width: 780px) and (max-width: 1023px) {
-  /* line 404, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 430, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list > li > a > .fa {
     display: none !important;
   }
 
-  /* line 405, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 431, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .hometext {
     display: block !important;
   }
 
-  /* line 406, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 432, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu {
     font-size: 13px !important;
   }
 
-  /* line 407, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 433, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list li a {
     white-space: nowrap !important;
     padding-left: 4px !important;
     padding-right: 4px !important;
   }
 
-  /* line 408, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 434, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .megacollink {
     width: 48%;
     margin: 1% 1%;
   }
 
-  /* line 409, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 435, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .typographylinks {
     width: 48%;
     margin: 1% 1%;
   }
 }
 @media only screen and (min-width: 781px) and (max-width: 1200px) {
-  /* line 414, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 440, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list li a .arrow:after {
     display: none !important;
   }
 }
 @media only screen and (min-width: 781px) {
-  /* line 419, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 445, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list li:hover > .wsmenu-submenu {
-    display: block !important;
+    /*display:block !important;*/
   }
 
-  /* line 420, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 448, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu li:hover > .wsmenu-submenu-sub {
     display: block !important;
   }
 
-  /* line 421, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 449, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu-sub li:hover > .wsmenu-submenu-sub-sub {
     display: block !important;
   }
 
-  /* line 422, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 450, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list li:hover > .megamenu {
     display: block !important;
   }
 }
 /*------------------------------------ Mobile CSS ---------------------------------------------*/
 @media only screen and (max-width: 780px) {
-  /* line 429, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 457, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list > li:hover > a {
     background-color: rgba(0, 0, 0, 0.08) !important;
     text-decoration: none;
   }
 
-  /* line 430, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 458, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .hometext {
     display: inline-block !important;
   }
 
-  /* line 431, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 459, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .megacollink {
     width: 96% !important;
     margin: 0% 2% !important;
   }
 
-  /* line 432, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 460, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .megacolimage {
     width: 90% !important;
     margin: 0% 5% !important;
   }
 
-  /* line 433, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 461, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .typographylinks {
     width: 98% !important;
     margin: 0% 1% !important;
   }
 
-  /* line 434, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 462, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .typographydiv {
     width: 86% !important;
     margin: 0% 7% !important;
   }
 
-  /* line 435, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 463, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .mainmapdiv {
     width: 90% !important;
     margin: 0% 5% !important;
   }
 
-  /* line 437, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 465, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .overlapblackbg {
     left: 0;
     z-index: 100;
@@ -10624,41 +10587,41 @@ a:focus {outline:none !important;}
     cursor: pointer;
   }
 
-  /* line 448, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 476, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .overlapblackbg.menuopen {
     display: block;
   }
 
   /* Default Theme */
-  /* line 451, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 479, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu > li:hover > a {
     background-color: #7b7b7b;
     color: #666666;
   }
 
-  /* line 452, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 480, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu > .wsmenu-list > li > a.active {
     color: #666666;
     background-color: rgba(0, 0, 0, 0.08);
   }
 
-  /* line 453, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 481, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu > .wsmenu-list > li > a:hover {
     color: #666666;
     background-color: rgba(0, 0, 0, 0.08);
   }
 
-  /* line 455, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 483, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list li:hover .wsmenu-submenu {
     display: none;
   }
 
-  /* line 456, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 484, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list li:hover .wsmenu-submenu .wsmenu-submenu-sub {
     display: none;
   }
 
-  /* line 457, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 485, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list .wsmenu-submenu .wsmenu-submenu-sub li:hover .wsmenu-submenu-sub-sub {
     display: none;
     list-style: none;
@@ -10667,14 +10630,14 @@ a:focus {outline:none !important;}
     background-color: #fff;
   }
 
-  /* line 458, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 486, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list li:first-child a {
     -webkit-border-radius: 0px 0px 0px 0px;
     -moz-border-radius: 0px 0px 0px 0px;
     border-radius: 0px 0px 0px 0px;
   }
 
-  /* line 459, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 487, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list li:last-child a {
     -webkit-border-radius: 0px 4px 0px 0px;
     -moz-border-radius: 0px 0px 0px 0px;
@@ -10682,17 +10645,17 @@ a:focus {outline:none !important;}
     border-right: 0px solid;
   }
 
-  /* line 461, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 489, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .innerpnd {
     padding: 0px !important;
   }
 
-  /* line 462, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 490, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .typography-text {
     padding: 10px 0px;
   }
 
-  /* line 464, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 492, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenucontainer {
     overflow: hidden;
     -webkit-backface-visibility: hidden;
@@ -10706,7 +10669,7 @@ a:focus {outline:none !important;}
     transition: all 0.4s ease-in-out;
   }
 
-  /* line 476, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 504, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenuexpandermain {
     display: block !important;
     position: relative;
@@ -10721,7 +10684,7 @@ a:focus {outline:none !important;}
   }
 
   /* Mobile click to drop arrow */
-  /* line 491, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 519, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-click {
     height: 43px;
     position: absolute;
@@ -10732,7 +10695,7 @@ a:focus {outline:none !important;}
     width: 100%;
   }
 
-  /* line 501, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 529, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-click i {
     display: block;
     height: 23px;
@@ -10745,7 +10708,7 @@ a:focus {outline:none !important;}
     float: right;
   }
 
-  /* line 513, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 541, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-rotate {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -10755,7 +10718,7 @@ a:focus {outline:none !important;}
   }
 
   /*2nd UL Style*/
-  /* line 521, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 549, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu-sub {
     width: 100% !important;
     position: static !important;
@@ -10770,14 +10733,14 @@ a:focus {outline:none !important;}
     visibility: visible !important;
   }
 
-  /* line 535, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 563, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu-sub li {
     margin: 0px 0px 0px 0px !important;
     padding: 0px;
     position: relative;
   }
 
-  /* line 540, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 568, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu-sub a {
     display: block;
     padding: 10px 25px 10px 25px;
@@ -10785,23 +10748,23 @@ a:focus {outline:none !important;}
     font-weight: normal;
   }
 
-  /* line 546, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 574, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu-sub li a.active {
     color: #000 !important;
   }
 
-  /* line 548, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 576, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu-sub li:hover > a {
     background-color: #333333 !important;
     color: #fff;
   }
 
-  /* line 550, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 578, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list > li > a .fa {
     margin-right: 6px;
   }
 
-  /* line 552, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 580, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu-sub-sub {
     width: 100% !important;
     position: static !important;
@@ -10816,12 +10779,12 @@ a:focus {outline:none !important;}
     visibility: visible !important;
   }
 
-  /* line 566, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 594, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu-sub-sub li {
     margin: 0px 0px 0px 0px !important;
   }
 
-  /* line 569, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 597, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu-sub-sub a {
     display: block;
     color: #000;
@@ -10831,30 +10794,30 @@ a:focus {outline:none !important;}
     font-weight: normal;
   }
 
-  /* line 577, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 605, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu-sub-sub li a.active {
     color: #000 !important;
   }
 
-  /* line 578, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 606, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu-sub-sub li:hover > a {
     background-color: #606060 !important;
     color: #fff;
   }
 
-  /* line 579, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 607, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu {
     position: relative;
   }
 
-  /* line 581, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 609, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu .wsmenu-list {
     height: 100%;
     overflow-y: auto;
     display: block !important;
   }
 
-  /* line 586, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 614, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu .wsmenu-list > li {
     width: 240px;
     display: block;
@@ -10865,7 +10828,7 @@ a:focus {outline:none !important;}
     white-space: inherit;
   }
 
-  /* line 595, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 623, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu > .wsmenu-list > li > a {
     padding: 9px 32px 9px 17px;
     font-size: 14px;
@@ -10879,24 +10842,24 @@ a:focus {outline:none !important;}
     position: static;
   }
 
-  /* line 608, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 636, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu > .wsmenu-list > li > a > .fa {
     font-size: 16px;
     color: #bfbfbf;
   }
 
-  /* line 609, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 637, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu .wsmenu-list li a .arrow:after {
     display: none !important;
   }
 
-  /* line 610, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 638, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu .wsmenu-list li ul li a .fa.fa-caret-right {
     font-size: 12px !important;
     color: #8E8E8E;
   }
 
-  /* line 612, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 640, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .mobile-sub .wsmenu-submenu {
     transform: none !important;
     opacity: 1 !important;
@@ -10909,7 +10872,7 @@ a:focus {outline:none !important;}
     visibility: visible !important;
   }
 
-  /* line 624, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 652, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .mobile-sub .wsmenu-submenu li a {
     line-height: 20px;
     height: 36x;
@@ -10919,20 +10882,20 @@ a:focus {outline:none !important;}
     color: #8E8E8E;
   }
 
-  /* line 632, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 660, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .mobile-sub .wsmenu-submenu li a:hover {
     background-color: #e7e7e7  !important;
     color: #666666;
     text-decoration: underline;
   }
 
-  /* line 633, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 661, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .mobile-sub .wsmenu-submenu li:hover > a {
     background-color: #e7e7e7 !important;
     color: #666666;
   }
 
-  /* line 634, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 662, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .mobile-sub .wsmenu-submenu li .wsmenu-submenu-sub li a {
     line-height: 20px;
     height: 36x;
@@ -10941,7 +10904,7 @@ a:focus {outline:none !important;}
     padding-left: 28px;
   }
 
-  /* line 635, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 663, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .mobile-sub .wsmenu-submenu li .wsmenu-submenu-sub li .wsmenu-submenu-sub-sub li a {
     line-height: 20px;
     height: 36x;
@@ -10951,7 +10914,7 @@ a:focus {outline:none !important;}
     color: #8e8e8e;
   }
 
-  /* line 637, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 665, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .mrginleft {
     margin-left: 240px;
     -webkit-transition: all 0.4s ease-in-out;
@@ -10961,7 +10924,7 @@ a:focus {outline:none !important;}
     transition: all 0.4s ease-in-out;
   }
 
-  /* line 645, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 673, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list .megamenu {
     background-color: #e7e7e7;
     color: #666666;
@@ -10975,26 +10938,26 @@ a:focus {outline:none !important;}
     visibility: visible !important;
   }
 
-  /* line 658, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 686, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list li:hover .megamenu {
     display: none;
     position: relative !important;
     top: 0px;
   }
 
-  /* line 659, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 687, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .megamenu .title {
     color: #666666;
     font-size: 15px !important;
     padding: 10px 8px 10px 0px;
   }
 
-  /* line 660, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 688, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .halfdiv .title {
     padding-left: 15px;
   }
 
-  /* line 661, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 689, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .megamenu > ul {
     width: 100% !important;
     margin: 0px;
@@ -11002,7 +10965,7 @@ a:focus {outline:none !important;}
     font-size: 13px !important;
   }
 
-  /* line 667, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 695, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .megamenu > ul > li > a {
     padding: 9px 14px !important;
     line-height: normal !important;
@@ -11011,17 +10974,17 @@ a:focus {outline:none !important;}
     color: #666666;
   }
 
-  /* line 674, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 702, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .megamenu > ul > li > a:hover {
     background-color: #000000 !important;
   }
 
-  /* line 676, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 704, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .ad-style {
     width: 100% !important;
   }
 
-  /* line 678, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 706, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .megamenu ul li.title {
     line-height: 26px;
     color: #666666;
@@ -11032,34 +10995,34 @@ a:focus {outline:none !important;}
     background-color: transparent !important;
   }
 
-  /* line 687, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 715, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .halfdiv {
     width: 100%;
     display: block;
   }
 
-  /* line 689, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 717, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .menu_form {
     padding: 10px 10px 63px 10px;
     background-color: #e7e7e7;
   }
 
-  /* line 691, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 719, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .menu_form input[type="button"] {
     width: 46%;
   }
 
-  /* line 692, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 720, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .menu_form input[type="submit"] {
     width: 46%;
   }
 
-  /* line 693, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 721, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .menu_form textarea {
     min-height: 100px;
   }
 
-  /* line 695, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 723, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu {
     width: 0px;
     height: 100%;
@@ -11080,7 +11043,7 @@ a:focus {outline:none !important;}
   }
 
   /*Nav Expanding Open Effect*/
-  /* line 715, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 743, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu.menuopen {
     width: 240px;
     -webkit-transition: all 0.4s ease-in-out;
@@ -11090,7 +11053,7 @@ a:focus {outline:none !important;}
     transition: all 0.4s ease-in-out;
   }
 
-  /* line 723, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 751, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu.menuclose {
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -11099,13 +11062,13 @@ a:focus {outline:none !important;}
     transition: all 0.4s ease-in-out;
   }
 
-  /* line 730, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 758, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenucontent {
     z-index: 1;
   }
 
   /* Navigation arrow Animation */
-  /* line 733, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 761, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .animated-arrow {
     position: fixed;
     left: 0;
@@ -11118,7 +11081,7 @@ a:focus {outline:none !important;}
     transition: all 0.4s ease-in-out;
   }
 
-  /* line 743, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 771, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .callusicon {
     color: #c9c9c9;
     font-size: 25px;
@@ -11136,23 +11099,23 @@ a:focus {outline:none !important;}
     transition: all 0.4s ease-in-out;
   }
 
-  /* line 760, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 788, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .callusicon:focus, callusicon:hover {
     color: #fff !important;
   }
 
-  /* line 764, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 792, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .mrginleft .callusicon {
     display: none !important;
   }
 
-  /* line 766, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 794, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenuexpandermain .menuopen {
     left: 240px !important;
     margin-top: 4px !important;
   }
 
-  /* line 768, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 796, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .smallogo {
     width: 100%;
     display: block;
@@ -11174,14 +11137,14 @@ a:focus {outline:none !important;}
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
   }
 
-  /* line 784, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 812, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .animated-arrow {
     cursor: pointer;
     padding: 13px 35px 16px 0px;
     margin: 10px 0 0 15px;
   }
 
-  /* line 789, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 817, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .animated-arrow span, .animated-arrow span:before, .animated-arrow span:after {
     cursor: pointer;
     height: 3px;
@@ -11192,32 +11155,32 @@ a:focus {outline:none !important;}
     content: '';
   }
 
-  /* line 798, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 826, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .animated-arrow span:before {
     top: -7px;
   }
 
-  /* line 801, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 829, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .animated-arrow span:after {
     bottom: -7px;
   }
 
-  /* line 804, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 832, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .animated-arrow span, .animated-arrow span:before, .animated-arrow span:after {
     transition: all 500ms ease-in-out;
   }
 
-  /* line 807, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 835, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .animated-arrow.menuopen span {
     background-color: transparent;
   }
 
-  /* line 810, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 838, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .animated-arrow.menuopen span:before, .animated-arrow.active span:after {
     top: 7px;
   }
 
-  /* line 813, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 841, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .animated-arrow.menuopen span:before {
     transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -11227,7 +11190,7 @@ a:focus {outline:none !important;}
     bottom: 0px;
   }
 
-  /* line 821, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 849, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .animated-arrow.menuopen span:after {
     transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -11237,7 +11200,7 @@ a:focus {outline:none !important;}
   }
 
   /*Animation None */
-  /* line 830, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 858, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list li > .wsmenu-submenu {
     transform: none !important;
     -o-transform: none !important;
@@ -11250,7 +11213,7 @@ a:focus {outline:none !important;}
     visibility: visible !important;
   }
 
-  /* line 842, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 870, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list li:hover > .wsmenu-submenu {
     transform: none !important;
     -o-transform: none !important;
@@ -11263,7 +11226,7 @@ a:focus {outline:none !important;}
     visibility: visible !important;
   }
 
-  /* line 854, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 882, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu li > .wsmenu-submenu-sub {
     transform: none !important;
     -o-transform: none !important;
@@ -11276,7 +11239,7 @@ a:focus {outline:none !important;}
     visibility: visible !important;
   }
 
-  /* line 866, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 894, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu li:hover > .wsmenu-submenu-sub {
     transform: none !important;
     -o-transform: none !important;
@@ -11290,7 +11253,7 @@ a:focus {outline:none !important;}
     opacity: 1  !important;
   }
 
-  /* line 879, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 907, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu-sub li > .wsmenu-submenu-sub-sub {
     transform: none !important;
     -o-transform: none !important;
@@ -11304,7 +11267,7 @@ a:focus {outline:none !important;}
     opacity: 1  !important;
   }
 
-  /* line 892, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 920, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-submenu-sub li:hover > .wsmenu-submenu-sub-sub {
     transform: none !important;
     -o-transform: none !important;
@@ -11318,7 +11281,7 @@ a:focus {outline:none !important;}
     opacity: 1  !important;
   }
 
-  /* line 906, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 934, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list li > .megamenu {
     transform: none !important;
     -o-transform: none !important;
@@ -11332,7 +11295,7 @@ a:focus {outline:none !important;}
     opacity: 1  !important;
   }
 
-  /* line 919, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
+  /* line 947, ../libs/webslide/full-width-menu/css/_webslidemenu.scss */
   .wsmenu-list li:hover > .megamenu {
     transform: none !important;
     -o-transform: none !important;
@@ -11386,6 +11349,13 @@ body {
 /* line 8, ../sass/mypbs/_pri-navigation.scss */
 .pbs-logo-mobile {
   width: 65px;
+}
+
+/* line 10, ../sass/mypbs/_pri-navigation.scss */
+.menu-icon {
+  font-size: 24px;
+  position: relative;
+  top: 4px;
 }
 
 /* line 1, ../sass/mypbs/_side-drawer.scss */

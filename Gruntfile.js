@@ -38,7 +38,7 @@ module.exports = function(grunt) {
 						'js/libs/bootstrap.js',
 						'node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.js',
 						'node_modules/tablesorter/dist/js/jquery.tablesorter.combined.js',
-						'libs/webslide/full-width-menu/js/webslidemenu.js'
+						'js/libs/webslidemenu__edited.js'
 					]
 				}
 			}

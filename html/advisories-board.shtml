@@ -58,7 +58,8 @@
 				<li><a href="#" class="active"><i class="fa fa-home"></i><span class="hometext">&nbsp;&nbsp;Home</span></a></li>
 
 				<!-- Start Menu -->
-				<li><a href="#"><i class="pbs-icon-tv"></i>&nbsp;&nbsp;Watch Videos <span class="arrow"></span></a>
+				<li >
+					<a class="wsmenu-click" href="#"><i class="menu-icon pbs-icon-tv"></i>&nbsp;&nbsp;Watch Videos <span class="arrow"></span></a>
 					<div class="megamenu clearfix">
 						<div class="col-lg-3 col-md-3 col-xs-12">
 							<h3 class="title"><a href="#">Browse All Videos <i class="fa fa-arrow-circle-right"></i></a></h3>
@@ -91,7 +92,8 @@
 				<!-- /end menu -->
 
 				<!-- Start Menu -->
-				<li><a href="#"><i class="pbs-icon-film-strip"></i>&nbsp;&nbsp;Programming <span class="arrow"></span></a>
+				<li>
+					<a class="wsmenu-click" href="#"><i class="menu-icon pbs-icon-film-strip"></i>&nbsp;&nbsp;Programming <span class="arrow"></span></a>
 					<div class="megamenu clearfix">
 						<div class="col-lg-3 col-md-3 col-xs-12">
 							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -156,7 +158,8 @@
 				<!-- /end menu -->
 
 				<!-- Start Menu -->
-				<li><a href="#"><i class="pbs-icon-engage"></i>&nbsp;&nbsp;Engage + Promote <span class="arrow"></span></a>
+				<li>
+					<a class="wsmenu-click" href="#"><i class="menu-icon pbs-icon-engage"></i>&nbsp;&nbsp;Engage + Promote <span class="arrow"></span></a>
 					<div class="megamenu clearfix">
 						<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
 							<li class="title">Product Header</li>
@@ -187,7 +190,8 @@
 				<!-- /end menu -->
 
 				<!-- Start Menu -->
-				<li><a href="#"><i class="pbs-icon-line-chart"></i>&nbsp;&nbsp;Development <span class="arrow"></span></a>
+				<li>
+					<a class="wsmenu-click" href="#"><i class="menu-icon pbs-icon-line-chart"></i>&nbsp;&nbsp;Development <span class="arrow"></span></a>
 					<div class="megamenu clearfix">
 						<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
 							<li class="title">Product Header</li>
@@ -218,7 +222,8 @@
 				<!-- /end menu -->
 
 				<!-- Start Menu -->
-				<li><a href="#"><i class="pbs-icon-gear"></i>&nbsp;&nbsp;Station Management <span class="arrow"></span></a>
+				<li>
+					<a class="wsmenu-click" href="#"><i class="menu-icon pbs-icon-gear"></i>&nbsp;&nbsp;Station Management <span class="arrow"></span></a>
 					<div class="megamenu clearfix">
 						<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
 							<li class="title">Product Header</li>
@@ -249,100 +254,59 @@
 				<!-- /end menu -->
 
 				<!-- Start Menu -->
-				<li><a href="#"><i class="pbs-icon-feeds"></i>&nbsp;&nbsp;Feeds <span class="arrow"></span></a>
+				<li>
+					<a class="wsmenu-click" href="#"><i class="menu-icon pbs-icon-feeds"></i>&nbsp;&nbsp;Feeds <span class="arrow"></span></a>
 					<div class="megamenu clearfix">
 
-
-
-
-
-
-<!-- tabs left -->
-	
-<ul class="nav nav-tabs tabs-left col-lg-3">
-	<li class="active"><a href="#feeds-ar" data-toggle="tab">Advisories &amp; Refeeds</a></li>
-	<li><a href="#feeds-f" data-toggle="tab">Flags</a></li>
-	<li><a href="#feeds-sa" data-toggle="tab">Scheduling Announcements</a></li>
-	<li><a href="#feeds-w" data-toggle="tab">Weather</a></li>
-</ul>
-	
-<div class="tab-content col-lg-8">
-	<div class="tab-pane active fade in" id="feeds-ar">
-		<h3>Advisories &amp; Refeeds</h3>
-		<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
-			<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Advisories</a></li>
-			<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Report an Advisory</a></li>
-		</ul>
-		<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
-			<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Refeeds</a></li>
-			<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Message Board</a></li>
-		</ul>
-	</div>
-
-	<div class="tab-pane" id="feeds-f">
-		<h3>Flags</h3>
-		<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
-			<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Flags</a></li>
-		</ul>
-	</div>
-
-	<div class="tab-pane" id="feeds-sa">
-		<div class="col-12">
-			<img src="http://mypbs.org/uploadedImages/e/Menu_Pop-Outs/streamingvideostill165.gif" alt="This is Product Name">
-			<h4>Schedule View</h4>
-			<p>View the near-real-time schedule view for all channels.</p>
-		</div>
-		<h3>Scheduling Announcements</h3>
-		<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
-			<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Scheduling Announcements</a></li>
-		</ul>
-	</div>
-
-	<div class="tab-pane" id="feeds-w">
-		<h3>Weather</h3>
-		<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
-			<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Weather</a></li>
-		</ul>
-	</div>
-</div>
-<!-- /tabs -->
-
-
-
-
-
-
-
-
-
-
-
-					<!--
-						<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
-							<li class="title">Product Header</li>
-							<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-							<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-							<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-							<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-							<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
+						<!-- tabs left -->
+						<ul class="nav nav-tabs tabs-left col-lg-3">
+							<li class="active"><a href="#feeds-ar" data-toggle="tab">Advisories &amp; Refeeds</a></li>
+							<li><a href="#feeds-f" data-toggle="tab">Flags</a></li>
+							<li><a href="#feeds-sa" data-toggle="tab">Scheduling Announcements</a></li>
+							<li><a href="#feeds-w" data-toggle="tab">Weather</a></li>
+							<li><a href="#">Browse All By Lits</a></li>
 						</ul>
-						<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
-							<li class="title">Product Header</li>
-							<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-							<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-							<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-							<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-							<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-						</ul>
-						<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
-							<li class="title">Product Header</li>
-							<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-							<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-							<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-							<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-							<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Submenu link style</a></li>
-						</ul>
-						-->
+							
+						<div class="tab-content col-lg-8">
+							<div class="tab-pane active fade in" id="feeds-ar">
+								<h3>Advisories &amp; Refeeds</h3>
+								<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Advisories</a></li>
+									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Report an Advisory</a></li>
+								</ul>
+								<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Refeeds</a></li>
+									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Message Board</a></li>
+								</ul>
+							</div>
+
+							<div class="tab-pane" id="feeds-f">
+								<h3>Flags</h3>
+								<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Flags</a></li>
+								</ul>
+							</div>
+
+							<div class="tab-pane" id="feeds-sa">
+								<div class="col-12">
+									<img src="http://mypbs.org/uploadedImages/e/Menu_Pop-Outs/streamingvideostill165.gif" alt="This is Product Name">
+									<h4>Schedule View</h4>
+									<p>View the near-real-time schedule view for all channels.</p>
+								</div>
+								<h3>Scheduling Announcements</h3>
+								<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Scheduling Announcements</a></li>
+								</ul>
+							</div>
+
+							<div class="tab-pane" id="feeds-w">
+								<h3>Weather</h3>
+								<ul class="col-lg-3 col-md-3 col-xs-12 link-list">
+									<li><a href="#"><i class="fa fa-arrow-circle-right"></i>Weather</a></li>
+								</ul>
+							</div>
+						</div>
+
 					</div>
 				</li>
 				<!-- /end menu -->
